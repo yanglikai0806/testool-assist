@@ -24,8 +24,8 @@ import java.lang.reflect.Method;
 public class Reflect {
     @Test
     public void run(){
-//        String content = FileUtils.readJsonFile(CONST.REFLECT_FILE);
-        String content = "{\"method\":\"drag\", \"args\":[{\"text\":\"测试工具\"}, [0.5, 0.5], 500]}";
+        String content = FileUtils.readJsonFile(CONST.REFLECT_FILE);
+ //       String content = "{\"method\":\"drag\", \"args\":[{\"text\":\"测试工具\"}, [0.5, 0.5], 500]}";
 //        String content = "{\"method\":\"drag\"}";
         try {
             JSONObject reflectObj = new JSONObject(content);
